@@ -7,7 +7,7 @@ import os
 def add_header(path):
     with open(path, "a") as csvfile:
         _writer = csv.writer(csvfile)
-        _writer.writerow(['#Time', 'Task']) 
+        _writer.writerow(['#time', 'task']) 
 
 
 def add_task(task, path):
